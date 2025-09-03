@@ -28,6 +28,11 @@ const mainNavItems: NavItem[] = [
     href: route('courier.index'),
     icon: Database,
   },
+  {
+    title: 'Products',
+    href: route('product.index'),
+    icon: Database,
+  },
 ];
 
 const footerNavItems: NavItem[] = [];
